@@ -6,5 +6,6 @@ Setelah melakukan clone :
 1. Ketikkan : npm install
 2. Buat folder www
 3. Masukkan hasil build'an dari react atau apapun yang hasilnya static web ke folder www
-4. Ketikkan : cordova build android
-5. Ketikkan : cordova run android
+4. Tambahkan script : <script src="cordova.js"></script> di index.html di folder www tadi
+5. Ketikkan : cordova build android
+6. Ketikkan : cordova run android
