@@ -10,7 +10,20 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.ksp.equal"
     },
-    "cordova-plugin-inappbrowser": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.ksp.equal"
+    },
+    "cordova-plugin-file-opener2": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.ksp.equal"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.ksp.equal"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.ksp.equal"
+    },
+    "cordova-plugin-file-transfer": {
       "PACKAGE_NAME": "com.ksp.equal"
     }
   },
