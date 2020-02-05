@@ -25,6 +25,10 @@
     },
     "cordova-plugin-file-transfer": {
       "PACKAGE_NAME": "com.ksp.equal"
+    },
+    "cordova-plugin-printer": {
+      "ANDROID_SUPPORT_V4_VERSION": "28.+",
+      "PACKAGE_NAME": "com.ksp.equal"
     }
   },
   "dependent_plugins": {}

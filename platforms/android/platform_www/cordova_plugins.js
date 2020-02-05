@@ -212,6 +212,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "window.FileTransfer"
       ]
+    },
+    {
+      "id": "cordova-plugin-printer.Printer",
+      "file": "plugins/cordova-plugin-printer/www/printer.js",
+      "pluginId": "cordova-plugin-printer",
+      "clobbers": [
+        "cordova.plugins.printer"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -220,6 +228,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-file-opener2": "3.0.0",
     "cordova-plugin-device": "2.0.3",
     "cordova-plugin-android-permissions": "1.0.2",
-    "cordova-plugin-file-transfer": "1.7.1"
+    "cordova-plugin-file-transfer": "1.7.1",
+    "cordova-plugin-printer": "0.8.0"
   };
 });

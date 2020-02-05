@@ -19,6 +19,7 @@
     "cordova-plugin-file": "^6.0.2",
     "cordova-plugin-file-opener2": "^3.0.0",
     "cordova-plugin-file-transfer": "^1.7.1",
+    "cordova-plugin-printer": "^0.8.0",
     "file-saver": "^2.0.2"
   },
   "devDependencies": {
@@ -33,7 +34,10 @@
       },
       "cordova-plugin-device": {},
       "cordova-plugin-android-permissions": {},
-      "cordova-plugin-file-transfer": {}
+      "cordova-plugin-file-transfer": {},
+      "cordova-plugin-printer": {
+        "ANDROID_SUPPORT_V4_VERSION": "28.+"
+      }
     },
     "platforms": [
       "android"

@@ -35,6 +35,10 @@
             {
               "xml": "<feature name=\"FileTransfer\"><param name=\"android-package\" value=\"org.apache.cordova.filetransfer.FileTransfer\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"Printer\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.printer.Printer\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -98,6 +102,10 @@
       "PACKAGE_NAME": "com.ksp.equal"
     },
     "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.ksp.equal"
+    },
+    "cordova-plugin-printer": {
+      "ANDROID_SUPPORT_V4_VERSION": "28.+",
       "PACKAGE_NAME": "com.ksp.equal"
     }
   },
@@ -315,6 +323,14 @@
       "clobbers": [
         "window.FileTransfer"
       ]
+    },
+    {
+      "id": "cordova-plugin-printer.Printer",
+      "file": "plugins/cordova-plugin-printer/www/printer.js",
+      "pluginId": "cordova-plugin-printer",
+      "clobbers": [
+        "cordova.plugins.printer"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -323,6 +339,7 @@
     "cordova-plugin-file-opener2": "3.0.0",
     "cordova-plugin-device": "2.0.3",
     "cordova-plugin-android-permissions": "1.0.2",
-    "cordova-plugin-file-transfer": "1.7.1"
+    "cordova-plugin-file-transfer": "1.7.1",
+    "cordova-plugin-printer": "0.8.0"
   }
 }

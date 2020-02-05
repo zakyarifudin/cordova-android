@@ -19,3 +19,6 @@ out
 gradle-app.setting
 # Android Studio
 .idea
+
+#static
+/app/src/main/asset/www/static
