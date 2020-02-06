@@ -21,4 +21,4 @@ gradle-app.setting
 .idea
 
 #static
-/app/src/main/asset/www/static
+/app/src/main/assets/www/static/*

@@ -16,7 +16,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <icon src="res/equal.png" />
+    <icon src="res/icon.png" />
     <preference name="Orientation" value="landscape" />
     <preference name="debuggable" value="true" />
     <platform name="android">

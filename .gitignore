@@ -13,3 +13,4 @@ plugins/*
 platforms/*
 js/**/*.js
 js/**/*.js.map
+res/*
