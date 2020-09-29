@@ -12,3 +12,4 @@ Setelah melakukan clone :
 7. Buat folder res & Tambahkan icon.png di folder res
 8. Ketikkan : cordova build android
 9. Ketikkan : cordova run android
+10. Letak APKnya : folder-root-anda\platforms\android\app\build\outputs\apk\debug
